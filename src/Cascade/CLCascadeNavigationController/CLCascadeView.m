@@ -834,13 +834,13 @@
     #endif
 }
 
-
+// fshi: uncomment the duplicated implementation by random 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
-    [_scrollView setPagingEnabled: YES];
-    [_scrollView setPagingEnabled: NO];
-    [_scrollView setScrollEnabled: YES];
-}
+//- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
+//    [_scrollView setPagingEnabled: YES];
+//    [_scrollView setPagingEnabled: NO];
+//    [_scrollView setScrollEnabled: YES];
+//}
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
